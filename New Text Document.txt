@@ -1,0 +1,42 @@
+    
+<h2> principal</h2>
+<ul>
+<li><a href="">E.Manohara raddy</a></li>
+</ul>
+
+<h2> Deputy traning offcer</h2>
+<ul>
+<li><a href=""> M.Vikram</a></li>
+<li><a href="">R.Rajesh</a></li>
+<li><a href="">B.Sridevi</a></li>
+</ul>
+
+<h2> Assistant traning offcer (contract)</h2>
+<ul>
+<li><a href=""> P Chandrakala</a></li>
+<li><a href="">I Lohith</a></li>
+</ul>
+
+<h2> assistant traning offcer (IMC)</h2>
+<ul>
+<li><a href="">E.vijayakumar Reddy </a></li>
+<li><a href="">V Sravani</a></li>
+<li><a href="">P Rudraiah</a></li>
+</ul>
+
+<h2> senior assistant</h2>
+<ul>
+<li><a href=""> Balakrishna </a></li>
+<li><a href=""> K Prasanth</a></li>
+</ul>
+
+<h2> junior assitent</h2>
+<ul>
+<li><a href="">Harika</a></li>
+</ul>
+
+<h2> office </h2>
+<ul>
+<li><a href="">K Veenavathi </a></li>
+<li><a href=""> Balaji</a></li>
+</ul>

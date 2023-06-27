@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  img{
+    width: 100VW;
+    height:100vh;
+  }
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<div class="w3-content w3-section" style="max-width:90vw">
+  <img class="mySlides" src="ip (1).jpeg" style="width:100%" "height:250%">
+  <img class="mySlides" src="ip (2).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (3).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (4).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (4).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (5).jpeg" style="width:100%" "height:250%">
+  <img class="mySlides" src="ip (6).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (7).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (8).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (9).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (10).jpeg" style="width:100%" "height:250%">
+  <img class="mySlides" src="ip (11).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (12).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (13).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (14).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (15).jpeg" style="width:100%" "height:250%">
+  <img class="mySlides" src="ip (16).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (17).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (18).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (19).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (20).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (21).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (22).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (23).jpeg" style="width:100%">
+  <img class="mySlides" src="ip (24).jpeg" style="width:100%">
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
